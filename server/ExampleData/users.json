@@ -1,0 +1,58 @@
+[
+	{
+		"id": "6841a9b9b05fe602da924395",
+		"fullName": "Moshe Peretz",
+		"username": "ddd",
+		"password": "ddd",
+		"allowOthers": true,
+		"role": "customer"
+	},
+	{
+		"id": "6841a9a4b05fe602da924391",
+		"fullName": "Noa Cohen",
+		"username": "sss",
+		"password": "sss",
+		"allowOthers": true,
+		"role": "customer"
+	},
+	{
+		"id": "6841a97b10f30acbc32ea14b",
+		"fullName": "Haim Halfon",
+		"username": "aaa",
+		"password": "aaa",
+		"allowOthers": true,
+		"role": "customer"
+	},
+	{
+		"id": "6841a9c2b05fe602da924397",
+		"fullName": "Yael Bar",
+		"username": "fff",
+		"password": "fff",
+		"allowOthers": true,
+		"role": "customer"
+	},
+	{
+		"id": "6846d1486fbe5955595d7ed9",
+		"fullName": "Donald Trump",
+		"username": "qqq",
+		"password": "qqq",
+		"allowOthers": true,
+		"role": "customer"
+	},
+	{
+		"id": "6841a9c8b05fe602da924399",
+		"fullName": "Itay Shalom",
+		"username": "ggg",
+		"password": "ggg",
+		"allowOthers": true,
+		"role": "customer"
+	},
+	{
+		"id": "6852c7f5addbb09dca065cd7",
+		"fullName": "The Manager",
+		"username": "aaaa",
+		"password": "aaaa",
+		"allowOthers": true,
+		"role": "admin"
+	}
+]

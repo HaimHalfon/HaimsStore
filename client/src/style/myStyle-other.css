@@ -1,0 +1,36 @@
+/* בועה */
+
+.bubble-wrapper {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.bubble-popup {
+	position: absolute;
+	z-index: 9999;
+	white-space: nowrap;
+	font-size: 0.875rem;
+	background-color: #333;
+	color: #fff;
+	border: 1px solid #ccc;
+	padding: 10px;
+	border-radius: 6px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+/* מדבקת אזל מהמלאי */
+
+.diagonal-ribbon {
+	position: absolute;
+	bottom: 1.25rem;
+	left: 50%;
+	transform: translateX(-50%) rotate(-5deg);
+	background-color: #dc3545;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 0.4rem 1rem;
+	z-index: 10;
+	pointer-events: none;
+}

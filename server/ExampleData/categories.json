@@ -1,0 +1,38 @@
+[
+	{
+		"id": "6841a643ef7e83fd55ec3b12",
+		"title": "Home"
+	},
+	{
+		"id": "6841a643ef7e83fd55ec3b10",
+		"title": "Electronics"
+	},
+	{
+		"id": "6841a643ef7e83fd55ec3b11",
+		"title": "Clothing"
+	},
+	{
+		"id": "6841a643ef7e83fd55ec3b15",
+		"title": "Food"
+	},
+	{
+		"id": "6841a643ef7e83fd55ec3b14",
+		"title": "Toys"
+	},
+	{
+		"id": "6841a643ef7e83fd55ec3b13",
+		"title": "Books"
+	},
+	{
+		"id": "686545adba222d823bd2d9e8",
+		"title": "Furniture"
+	},
+	{
+		"id": "6841a643ef7e83fd55ec3b16",
+		"title": "Beauty"
+	},
+	{
+		"id": "6841a643ef7e83fd55ec3b17",
+		"title": "Sports"
+	}
+]

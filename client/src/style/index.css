@@ -1,0 +1,23 @@
+* {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+	background-color: #f2f4f7;
+}
+
+/* עיצוב כללי של פס הגלילה */
+.myStyle-scroll-area::-webkit-scrollbar {
+	width: 0.25rem; /* רוחב הפס */
+}
+
+/* עיצוב הרקע של פס הגלילה */
+.myStyle-scroll-area::-webkit-scrollbar-track {
+	border-radius: 10px;
+}
+
+/* עיצוב ה-thumb (החלק שנע בפס הגלילה) */
+.myStyle-scroll-area::-webkit-scrollbar-thumb {
+	background: #d5dbdb; /* צבע ה-thumb */
+	border-radius: 10px;
+}

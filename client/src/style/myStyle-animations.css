@@ -1,0 +1,59 @@
+.myStyle-animit-up {
+	animation: fadeUp 0.4s ease-out;
+}
+
+@keyframes fadeUp {
+	from {
+		transform: translateY(20px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.myStyle-animit-down {
+	animation: fadeDown 0.4s ease-out;
+}
+
+@keyframes fadeDown {
+	from {
+		transform: translateY(-20px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.myStyle-animit-left {
+	animation: fadeLeft 0.4s ease-out;
+}
+
+@keyframes fadeLeft {
+	from {
+		transform: translateX(20px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+.myStyle-animit-right {
+	animation: fadeRight 0.4s ease-out;
+}
+
+@keyframes fadeRight {
+	from {
+		transform: translateX(-20px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}

@@ -1,0 +1,46 @@
+import mongoose from "mongoose";
+import dotenv from "dotenv";
+import jf from "jsonfile";
+
+dotenv.config();
+
+import User from "./model/userModel.js";
+import Product from "./model/productModel.js";
+import Category from "./model/categoryModel.js";
+import Order from "./model/orderModel.js";
+
+const connectDB = async () => {
+	try {
+		await mongoose.connect(process.env.MONGO_URI);
+		console.log("MongoDB Connected");
+	} catch (error) {
+		console.error("MongoDB connection failed:", error);
+		process.exit(1);
+	}
+};
+
+const seedDB = async () => {
+	await connectDB();
+
+	try {
+		await Promise.all([User.deleteMany(), Product.deleteMany(), Category.deleteMany(), Order.deleteMany()]);
+
+		const users = await jf.readFile("./exampleData/users.json");
+		const categories = await jf.readFile("./exampleData/categories.json");
+		const products = await jf.readFile("./exampleData/products.json");
+		const orders = await jf.readFile("./exampleData/orders.json");
+
+		await User.insertMany(users);
+		await Category.insertMany(categories);
+		await Product.insertMany(products);
+		await Order.insertMany(orders);
+
+		console.log("Database seeded successfully");
+		process.exit();
+	} catch (error) {
+		console.error("Failed to seed database:", error);
+		process.exit(1);
+	}
+};
+
+seedDB();

@@ -1,0 +1,288 @@
+[
+	{
+		"id": "6846d9eb4961fc18ba4a673e",
+		"title": "Cola",
+		"category": {
+			"id": "6841a643ef7e83fd55ec3b15"
+		},
+		"description": "500ml carbonated soft drink",
+		"price": 1.5,
+		"picLink": "https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&h=250&w=400",
+		"inStock": 10
+	},
+	{
+		"id": "6846d9eb4961fc18ba4a673f",
+		"title": "Pants",
+		"category": {
+			"id": "6841a643ef7e83fd55ec3b11"
+		},
+		"description": "Comfortable cotton trousers",
+		"price": 30,
+		"picLink": "https://images.pexels.com/photos/1082529/pexels-photo-1082529.jpeg?auto=compress&cs=tinysrgb&h=250&w=400",
+		"inStock": 12
+	},
+	{
+		"id": "6846d9eb4961fc18ba4a673d",
+		"title": "Milk",
+		"category": {
+			"id": "6841a643ef7e83fd55ec3b15"
+		},
+		"description": "1L fresh whole milk",
+		"price": 2.5,
+		"picLink": "https://images.pexels.com/photos/236010/pexels-photo-236010.jpeg?auto=compress&cs=tinysrgb&h=250&w=400",
+		"inStock": 15
+	},
+	{
+		"id": "6846d9eb4961fc18ba4a6742",
+		"title": "Shoes",
+		"category": {
+			"id": "6841a643ef7e83fd55ec3b11"
+		},
+		"description": "Casual walking shoes",
+		"price": 50,
+		"picLink": "https://images.pexels.com/photos/19090/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=250&w=400",
+		"inStock": 0
+	},
+	{
+		"id": "6846d9eb4961fc18ba4a6743",
+		"title": "Plant",
+		"category": {
+			"id": "6841a643ef7e83fd55ec3b12"
+		},
+		"description": "Decorative small indoor plant",
+		"price": 10,
+		"picLink": "https://images.pexels.com/photos/1048036/pexels-photo-1048036.jpeg?auto=compress&cs=tinysrgb&h=250&w=400",
+		"inStock": 16
+	},
+	{
+		"id": "6846d9eb4961fc18ba4a6744",
+		"title": "Lamp",
+		"category": {
+			"id": "6841a643ef7e83fd55ec3b10"
+		},
+		"description": "LED desk lamp",
+		"price": 25,
+		"picLink": "https://images.pexels.com/photos/262042/pexels-photo-262042.jpeg?auto=compress&cs=tinysrgb&h=250&w=400",
+		"inStock": 0
+	},
+	{
+		"id": "6846d9eb4961fc18ba4a6745",
+		"title": "Cutting Board",
+		"category": {
+			"id": "6841a643ef7e83fd55ec3b12"
+		},
+		"description": "Wooden kitchen board",
+		"price": 15,
+		"picLink": "https://images.pexels.com/photos/952478/pexels-photo-952478.jpeg?auto=compress&cs=tinysrgb&h=250&w=400",
+		"inStock": 16
+	},
+	{
+		"id": "6846d9eb4961fc18ba4a6746",
+		"title": "Thriller Book",
+		"category": {
+			"id": "6841a643ef7e83fd55ec3b13"
+		},
+		"description": "Suspenseful fiction novel",
+		"price": 12,
+		"picLink": "https://images.pexels.com/photos/261859/pexels-photo-261859.jpeg?auto=compress&cs=tinysrgb&h=250&w=400",
+		"inStock": 17
+	},
+	{
+		"id": "6846d9eb4961fc18ba4a6747",
+		"title": "Python Book",
+		"category": {
+			"id": "6841a643ef7e83fd55ec3b13"
+		},
+		"description": "Learn Python programming",
+		"price": 25,
+		"picLink": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&h=250&w=400",
+		"inStock": 18
+	},
+	{
+		"id": "6846d9eb4961fc18ba4a6748",
+		"title": "Habits Book",
+		"category": {
+			"id": "6841a643ef7e83fd55ec3b13"
+		},
+		"description": "Guide to building good habits",
+		"price": 20,
+		"picLink": "https://images.pexels.com/photos/4218979/pexels-photo-4218979.jpeg?auto=compress&cs=tinysrgb&h=250&w=400",
+		"inStock": 16
+	},
+	{
+		"id": "6846d9eb4961fc18ba4a6740",
+		"title": "Pillow",
+		"category": {
+			"id": "6841a643ef7e83fd55ec3b12"
+		},
+		"description": "Soft sleeping pillow",
+		"price": 20,
+		"picLink": "https://images.pexels.com/photos/1248583/pexels-photo-1248583.jpeg?auto=compress&cs=tinysrgb&h=250&w=400",
+		"inStock": 14
+	},
+	{
+		"id": "6846d9eb4961fc18ba4a674a",
+		"title": "RC Car",
+		"category": {
+			"id": "6841a643ef7e83fd55ec3b14"
+		},
+		"description": "Remote control toy car",
+		"price": 60,
+		"picLink": "https://images.pexels.com/photos/7869091/pexels-photo-7869091.jpeg?auto=compress&cs=tinysrgb&h=250&w=400",
+		"inStock": 16
+	},
+	{
+		"id": "6846d9eb4961fc18ba4a674b",
+		"title": "Chess Set",
+		"category": {
+			"id": "6841a643ef7e83fd55ec3b14"
+		},
+		"description": "Wooden chess board game",
+		"price": 35,
+		"picLink": "https://images.pexels.com/photos/6693061/pexels-photo-6693061.jpeg?auto=compress&cs=tinysrgb&h=250&w=400",
+		"inStock": 0
+	},
+	{
+		"id": "6846d9eb4961fc18ba4a6741",
+		"title": "Snack Bar",
+		"category": {
+			"id": "6841a643ef7e83fd55ec3b15"
+		},
+		"description": "Healthy granola bar",
+		"price": 1.2,
+		"picLink": "https://images.pexels.com/photos/17594022/pexels-photo-17594022.jpeg?auto=compress&cs=tinysrgb&h=250&w=400",
+		"inStock": 19
+	},
+	{
+		"id": "6846d9eb4961fc18ba4a674d",
+		"title": "Green Tea",
+		"category": {
+			"id": "6841a643ef7e83fd55ec3b15"
+		},
+		"description": "Organic tea bags",
+		"price": 10,
+		"picLink": "https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&h=250&w=400",
+		"inStock": 18
+	},
+	{
+		"id": "6846d9eb4961fc18ba4a674e",
+		"title": "Chocolate",
+		"category": {
+			"id": "6841a643ef7e83fd55ec3b15"
+		},
+		"description": "Box of dark chocolates",
+		"price": 15,
+		"picLink": "https://images.pexels.com/photos/8793922/pexels-photo-8793922.jpeg?auto=compress&cs=tinysrgb&h=250&w=400",
+		"inStock": 19
+	},
+	{
+		"id": "6846d9eb4961fc18ba4a674f",
+		"title": "Serum",
+		"category": {
+			"id": "6841a643ef7e83fd55ec3b16"
+		},
+		"description": "Vitamin C face serum",
+		"price": 22,
+		"picLink": "https://images.pexels.com/photos/7797734/pexels-photo-7797734.jpeg?auto=compress&cs=tinysrgb&h=250&w=400",
+		"inStock": 11
+	},
+	{
+		"id": "6846d9eb4961fc18ba4a6750",
+		"title": "Toothbrush",
+		"category": {
+			"id": "6841a643ef7e83fd55ec3b16"
+		},
+		"description": "Rechargeable electric toothbrush",
+		"price": 40,
+		"picLink": "https://images.pexels.com/photos/6690859/pexels-photo-6690859.jpeg?auto=compress&cs=tinysrgb&h=250&w=400",
+		"inStock": 15
+	},
+	{
+		"id": "6846d9eb4961fc18ba4a6751",
+		"title": "Hair Dryer",
+		"category": {
+			"id": "6841a643ef7e83fd55ec3b16"
+		},
+		"description": "Professional ionic hair dryer",
+		"price": 50,
+		"picLink": "https://images.pexels.com/photos/7907064/pexels-photo-7907064.jpeg?auto=compress&cs=tinysrgb&h=250&w=400",
+		"inStock": 20
+	},
+	{
+		"id": "6846d9eb4961fc18ba4a6752",
+		"title": "Helmet",
+		"category": {
+			"id": "6841a643ef7e83fd55ec3b17"
+		},
+		"description": "Mountain biking helmet",
+		"price": 30,
+		"picLink": "https://images.pexels.com/photos/1323201/pexels-photo-1323201.jpeg?auto=compress&cs=tinysrgb&h=250&w=400",
+		"inStock": 14
+	},
+	{
+		"id": "6846d9eb4961fc18ba4a6753",
+		"title": "Yoga Mat",
+		"category": {
+			"id": "6841a643ef7e83fd55ec3b17"
+		},
+		"description": "Non-slip eco yoga mat",
+		"price": 25,
+		"picLink": "https://images.pexels.com/photos/2394051/pexels-photo-2394051.jpeg?auto=compress&cs=tinysrgb&h=250&w=400",
+		"inStock": 17
+	},
+	{
+		"id": "6846d9eb4961fc18ba4a6754",
+		"title": "Backpack",
+		"category": {
+			"id": "6841a643ef7e83fd55ec3b17"
+		},
+		"description": "Water-resistant hiking backpack",
+		"price": 40,
+		"picLink": "https://images.pexels.com/photos/1294731/pexels-photo-1294731.jpeg?auto=compress&cs=tinysrgb&h=250&w=400",
+		"inStock": 15
+	},
+	{
+		"id": "6846d9eb4961fc18ba4a6755",
+		"title": "Dumbbells",
+		"category": {
+			"id": "6841a643ef7e83fd55ec3b17"
+		},
+		"description": "Adjustable dumbbell set",
+		"price": 55,
+		"picLink": "https://images.pexels.com/photos/39671/physiotherapy-weight-training-dumbbell-exercise-balls-39671.jpeg?auto=compress&cs=tinysrgb&h=250&w=400",
+		"inStock": 18
+	},
+	{
+		"id": "6846d9eb4961fc18ba4a6756",
+		"title": "Tent",
+		"category": {
+			"id": "6841a643ef7e83fd55ec3b17"
+		},
+		"description": "2-person waterproof camping tent",
+		"price": 70,
+		"picLink": "https://images.pexels.com/photos/1687845/pexels-photo-1687845.jpeg?auto=compress&cs=tinysrgb&h=250&w=400",
+		"inStock": 15
+	},
+	{
+		"id": "6846d9eb4961fc18ba4a6749",
+		"title": "Lego Set",
+		"category": {
+			"id": "6841a643ef7e83fd55ec3b14"
+		},
+		"description": "Creative building blocks",
+		"price": 45,
+		"picLink": "https://images.pexels.com/photos/19916221/pexels-photo-19916221.jpeg?auto=compress&cs=tinysrgb&h=250&w=400",
+		"inStock": 18
+	},
+	{
+		"id": "6846d9eb4961fc18ba4a674c",
+		"title": "Coffee",
+		"category": {
+			"id": "6841a643ef7e83fd55ec3b15"
+		},
+		"description": "Premium roasted coffee beans",
+		"price": 18,
+		"picLink": "https://images.pexels.com/photos/606545/pexels-photo-606545.jpeg?auto=compress&cs=tinysrgb&h=250&w=400",
+		"inStock": 16
+	}
+]
