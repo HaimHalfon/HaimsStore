@@ -40,6 +40,14 @@ Includes live order management, smart filtering, and dynamic charts for sales in
 
 ## 🚀 How to Run Locally
 
+```bash
+# Clone the repository
+git clone https://github.com/HaimHalfon/HaimsStore.git
+
+# Navigate into the project folder
+cd HaimsStore
+```
+
 You need two terminals: one for the backend and one for the frontend.
 
 ### 🖥️ Terminal 1 – Server
