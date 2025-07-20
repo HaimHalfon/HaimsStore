@@ -4,6 +4,11 @@ import jf from "jsonfile";
 
 dotenv.config();
 
+import { createUser } from "./repositories/usersRepo.js";
+import { createCategory } from "./repositories/categoriesRepo.js";
+import { createProduct } from "./repositories/productsRepo.js";
+import { createOrder } from "./repositories/ordersRepo.js";
+
 import User from "./model/userModel.js";
 import Product from "./model/productModel.js";
 import Category from "./model/categoryModel.js";
@@ -30,10 +35,21 @@ const seedDB = async () => {
 		const products = await jf.readFile("./exampleData/products.json");
 		const orders = await jf.readFile("./exampleData/orders.json");
 
-		await User.insertMany(users);
-		await Category.insertMany(categories);
-		await Product.insertMany(products);
-		await Order.insertMany(orders);
+		for (const u of users) {
+			await createUser(u);
+		}
+
+		for (const c of categories) {
+			await createCategory(c);
+		}
+
+		for (const p of products) {
+			await createProduct(p);
+		}
+
+		for (const o of orders) {
+			await createOrder(o);
+		}
 
 		console.log("Database seeded successfully");
 		process.exit();
