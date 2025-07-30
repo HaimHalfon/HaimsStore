@@ -4,25 +4,17 @@ import jf from "jsonfile";
 
 dotenv.config();
 
-import { createUser } from "./repositories/usersRepo.js";
-import { createCategory } from "./repositories/categoriesRepo.js";
-import { createProduct } from "./repositories/productsRepo.js";
-import { createOrder } from "./repositories/ordersRepo.js";
+import connectDB from "./db.js";
 
-import User from "./model/userModel.js";
-import Product from "./model/productModel.js";
-import Category from "./model/categoryModel.js";
-import Order from "./model/orderModel.js";
+import { createUser } from "../repositories/usersRepo.js";
+import { createCategory } from "../repositories/categoriesRepo.js";
+import { createProduct } from "../repositories/productsRepo.js";
+import { createOrder } from "../repositories/ordersRepo.js";
 
-const connectDB = async () => {
-	try {
-		await mongoose.connect(process.env.MONGO_URI);
-		console.log("MongoDB Connected");
-	} catch (error) {
-		console.error("MongoDB connection failed:", error);
-		process.exit(1);
-	}
-};
+import User from "../model/userModel.js";
+import Product from "../model/productModel.js";
+import Category from "../model/categoryModel.js";
+import Order from "../model/orderModel.js";
 
 const seedDB = async () => {
 	await connectDB();
